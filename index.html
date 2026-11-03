@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Wahdah Siti Nurfauziyah — Informatics, technology, and digital projects.">
+  <title>Wahdah Siti Nurfauziyah - Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">W<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#about" data-id="Tentang" data-en="About">Tentang</a>
+      <a href="#projects" data-id="Proyek" data-en="Projects">Proyek</a>
+      <a href="#experience" data-id="Pengalaman" data-en="Experience">Pengalaman</a>
+      <a href="#skills" data-id="Keahlian" data-en="Skills">Keahlian</a>
+      <a href="#contact" data-id="Kontak" data-en="Contact">Kontak</a>
+      <button class="language-toggle" id="languageToggle">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          <span data-id="Portofolio Personal · 2026" data-en="Personal Portfolio · 2026">Portofolio Personal · 2026</span>
+        </p>
+
+        <h1>Wahdah Siti<br><em>Nurfauziyah.</em></h1>
+
+        <p class="hero-role"
+           data-id="Informatika Graduate · Technology Enthusiast"
+           data-en="Informatics Graduate · Technology Enthusiast">
+          Informatics Graduate · Technology Enthusiast
+        </p>
+
+        <p class="hero-description"
+           data-id="Saya tertarik pada pengembangan teknologi, sistem informasi, analisis data, dan cybersecurity. Saya senang mempelajari hal baru, mengeksplorasi ide, serta mengembangkan kemampuan melalui pengalaman dan proyek nyata."
+           data-en="I am interested in technology development, information systems, data analysis, and cybersecurity. I enjoy learning new things, exploring ideas, and developing my skills through practical experiences and projects.">
+          Saya tertarik pada pengembangan teknologi, sistem informasi, analisis data, dan cybersecurity. Saya senang mempelajari hal baru, mengeksplorasi ide, serta mengembangkan kemampuan melalui pengalaman dan proyek nyata.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button button-outline"
+            data-id="Jelajahi Proyek" data-en="Explore Projects">Jelajahi Proyek</a>
+          <a href="#contact" class="button button-outline"
+            data-id="Hubungi Saya" data-en="Get in Touch">Hubungi Saya</a>
+          <a href="https://drive.google.com/file/d/1jQOmc55gfAC20FKbuo0cexq4pVlPQ4S_/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-outline"
+            data-id="Lihat CV ATS" data-en="View ATS Resume">Lihat CV ATS</a>
+          <a href="https://drive.google.com/file/d/15xOFSFvKixcHagZmyx-U7zn-gMzPAuo7/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-outline"
+            data-id="Lihat CV Kreatif" data-en="View Creative Resume">Lihat CV Kreatif</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>3.73</strong><span>GPA / IPK</span></div>
+          <div><strong>2026</strong><span data-id="Lulusan" data-en="Graduate">Lulusan</span></div>
+          <div><strong>8</strong><span data-id="Semester" data-en="Semesters">Semester</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-frame">
+          <img src="FP.jpeg" alt="Wahdah Siti Nurfauziyah"
+               onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');">
+          <div class="photo-placeholder">
+            <span>WSN</span>
+            <small>MY PHOTO HERE</small>
+          </div>
+        </div>
+        <div class="floating-note note-top">Curious mind<span>✳</span></div>
+        <div class="floating-note note-bottom">Learn · Build · Grow</div>
+        <div class="visual-orbit"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2 data-id="Sedikit tentang saya." data-en="A little about me.">Sedikit tentang saya.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="large-copy"
+             data-id="Saya adalah lulusan S1 Informatika yang memiliki ketertarikan pada pemanfaatan teknologi untuk menyelesaikan permasalahan dan menciptakan solusi digital."
+             data-en="I am an Informatics graduate interested in using technology to solve problems and create meaningful digital solutions.">
+            Saya adalah lulusan S1 Informatika yang memiliki ketertarikan pada pemanfaatan teknologi untuk menyelesaikan permasalahan dan menciptakan solusi digital.
+          </p>
+          <p data-id="Selama masa studi, saya mengeksplorasi berbagai bidang melalui proyek akademik, mulai dari pengembangan website dan aplikasi, perancangan UI/UX, pengolahan data, hingga cybersecurity. Saya percaya bahwa kemampuan berkembang melalui proses belajar, praktik, dan keterbukaan terhadap pengalaman baru."
+             data-en="Throughout my studies, I explored different fields through academic projects, including website and application development, UI/UX design, data processing, and cybersecurity. I believe skills grow through learning, practice, and openness to new experiences.">
+            Selama masa studi, saya mengeksplorasi berbagai bidang melalui proyek akademik, mulai dari pengembangan website dan aplikasi, perancangan UI/UX, pengolahan data, hingga cybersecurity. Saya percaya bahwa kemampuan berkembang melalui proses belajar, praktik, dan keterbukaan terhadap pengalaman baru.
+          </p>
+        </div>
+
+        <div class="about-aside">
+          <div class="info-line"><span>Education</span><strong>S1 Informatika</strong></div>
+          <div class="info-line"><span>Institution</span><strong>STTC</strong></div>
+          <div class="info-line"><span>Graduation</span><strong>2026</strong></div>
+          <div class="info-line"><span>Interest</span><strong>IT · Data · Security</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">02 / SELECTED WORK</p>
+        <h2 data-id="Proyek pilihan." data-en="Selected projects.">Proyek pilihan.</h2>
+        <p class="section-intro"
+           data-id="Beberapa proyek akademik dan eksplorasi yang menjadi bagian dari proses belajar saya."
+           data-en="A selection of academic projects and explorations that have shaped my learning journey.">
+          Beberapa proyek akademik dan eksplorasi yang menjadi bagian dari proses belajar saya.
+        </p>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="web">Web Development</button>
+        <button class="filter-button" data-filter="design">UI/UX</button>
+        <button class="filter-button" data-filter="data">Data & AI</button>
+        <button class="filter-button" data-filter="security">Cybersecurity</button>
+        <button class="filter-button" data-filter="other">Other</button>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card featured" data-category="security">
+          <div class="project-top"><span>01 / FINAL PROJECT</span><span>Cybersecurity</span></div>
+          <div class="project-art art-security"><span>01</span><i>SECURITY<br>RESEARCH</i></div>
+          <div class="project-body">
+            <p class="project-type">FINAL THESIS - INDIVIDUAL</p>
+            <h3>Social Media User Vulnerability Analysis</h3>
+            <p data-id="Rekonstruksi skenario phishing melalui website giveaway tiruan untuk menganalisis pola kerentanan pengguna dengan pendekatan human factor dan clustering."
+               data-en="Reconstruction of a phishing scenario using a simulated giveaway website to analyze user vulnerability patterns through a human-factor and clustering approach.">
+              Rekonstruksi skenario phishing melalui website giveaway tiruan untuk menganalisis pola kerentanan pengguna dengan pendekatan human factor dan clustering.
+            </p>
+            <div class="tag-list"><span>Cybersecurity</span><span>Phishing</span><span>Clustering</span></div>
+            <button class="detail-button" data-project="thesis" data-id="Lihat Detail ↗" data-en="View Details ↗">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card featured" data-category="data">
+          <div class="project-top"><span>02 / DATA & AI</span><span>Featured</span></div>
+          <div class="project-art art-data"><span>02</span><i>TEXT<br>ANALYTICS</i></div>
+          <div class="project-body">
+            <p class="project-type">NLP - GROUP PROJECT</p>
+            <h3>Opinion Classification Application</h3>
+            <p data-id="Aplikasi klasifikasi opini terhadap aplikasi pemerintah menggunakan pendekatan Natural Language Processing dan Streamlit."
+               data-en="An opinion classification application for government apps using Natural Language Processing and Streamlit.">
+              Aplikasi klasifikasi opini terhadap aplikasi pemerintah menggunakan pendekatan Natural Language Processing dan Streamlit.
+            </p>
+            <div class="tag-list"><span>Python</span><span>Streamlit</span><span>NLP</span></div>
+            <button class="detail-button" data-project="sentiment">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card featured" data-category="design">
+          <div class="project-top"><span>03 / UI & UX</span><span>Featured</span></div>
+          <div class="project-art art-design"><span>03</span><i>BE-LINE<br>EXPERIENCE</i></div>
+          <div class="project-body">
+            <p class="project-type">UI/UX - GROUP PROJECT</p>
+            <h3>Be-Line Bengkel Online</h3>
+            <p data-id="Perancangan UI/UX layanan bengkel online menggunakan pendekatan Design Thinking dan evaluasi System Usability Scale (SUS)."
+               data-en="UI/UX design for an online workshop service using Design Thinking and System Usability Scale (SUS) evaluation.">
+              Perancangan UI/UX layanan bengkel online menggunakan pendekatan Design Thinking dan evaluasi System Usability Scale (SUS).
+            </p>
+            <div class="tag-list"><span>Figma</span><span>Design Thinking</span><span>SUS</span></div>
+            <button class="detail-button" data-project="beline">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card featured" data-category="web">
+          <div class="project-top"><span>04 / WEB DEVELOPMENT</span><span>Featured</span></div>
+          <div class="project-art art-web"><span>04</span><i>JDIH<br>WEBSITE</i></div>
+          <div class="project-body">
+            <p class="project-type">PRACTICAL WORK - INDIVIDUAL</p>
+            <h3>JDIH Information Website</h3>
+            <p data-id="Pengembangan website informasi dokumentasi hukum yang terintegrasi dengan Google Drive, mencakup dokumentasi, desain antarmuka, dan implementasi."
+               data-en="Development of a legal documentation and information website integrated with Google Drive, covering documentation, interface design, and implementation.">
+              Pengembangan website informasi dokumentasi hukum yang terintegrasi dengan Google Drive, mencakup dokumentasi, desain antarmuka, dan implementasi.
+            </p>
+            <div class="tag-list"><span>Web Development</span><span>Google Drive</span><span>Documentation</span></div>
+            <button class="detail-button" data-project="jdih">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="design">
+          <div class="project-top"><span>05 / UI DESIGN</span><span>2024</span></div>
+          <div class="project-art art-hospital"><span>05</span><i>HEALTHCARE<br>DESIGN</i></div>
+          <div class="project-body">
+            <p class="project-type">SOFTWARE ENGINEERING MANAGEMENT</p>
+            <h3>WIRP Health</h3>
+            <p data-id="Perancangan wireframe dan konsep layanan pemesanan rumah sakit secara online."
+               data-en="Wireframe and service concept design for an online hospital booking platform.">
+              Perancangan wireframe dan konsep layanan pemesanan rumah sakit secara online.
+            </p>
+            <div class="tag-list"><span>Wireframe</span><span>UI Design</span><span>Report</span></div>
+            <button class="detail-button" data-project="wirp">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="design">
+          <div class="project-top"><span>06 / UI DESIGN & FRONTEND DEVELOPMENT</span><span>2025</span></div>
+          <div class="project-art art-hospital"><span>06</span><i>EXAM SYSTEM<br>AUTO SUBMIT</i></div>
+          <div class="project-body">
+            <p class="project-type">INFORMATION SYSTEM - GROUP PROJECT</p>
+            <h3>Website Ujian Auto Submit</h3>
+            <p data-id="Perancangan interface hingga frontend dari Website Ujian Auto Submit"
+               data-en="Interface design and frontend development of an Auto Submit Examination Website">
+              Perancangan interface hingga frontend dari Website Ujian Auto Submit.
+            </p>
+            <div class="tag-list"><span>UI Design</span><span>Report</span><span>Frontend</span></span></div>
+            <button class="detail-button" data-project="exam">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-top"><span>07 / WEB DEVELOPMENT</span><span>Academic</span></div>
+          <div class="project-art art-ppdb"><span>07</span><i>PPDB<br>ONLINE</i></div>
+          <div class="project-body">
+            <p class="project-type">SOFTWARE ENGINEERING</p>
+            <h3>PPDB Online SMP Plus</h3>
+            <p data-id="Pengembangan sistem penerimaan peserta didik baru berbasis web menggunakan HTML, CSS, JavaScript, dan PHP."
+               data-en="Development of a web-based student admission system using HTML, CSS, JavaScript, and PHP.">
+              Pengembangan sistem penerimaan peserta didik baru berbasis web menggunakan HTML, CSS, JavaScript, dan PHP.
+            </p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>PHP</span></div>
+            <button class="detail-button" data-project="ppdb">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-top"><span>08 / WEB DEVELOPMENT</span><span>Academic</span></div>
+          <div class="project-art art-laravel"><span>08</span><i>STTC<br>WEBSITE</i></div>
+          <div class="project-body">
+            <p class="project-type">WEB PROGRAMMING</p>
+            <h3>STTC Profile Website</h3>
+            <p data-id="Proyek pengembangan website profil institusi menggunakan framework Laravel."
+               data-en="An institutional profile website development project using the Laravel framework.">
+              Proyek pengembangan website profil institusi menggunakan framework Laravel.
+            </p>
+            <div class="tag-list"><span>Laravel</span><span>PHP</span><span>Web</span></div>
+            <button class="detail-button" data-project="sttc">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-top"><span>09 / WEB DEVELOPMENT</span><span>Academic</span></div>
+          <div class="project-art art-booking"><span>09</span><i>REPORTING<br>APP</i></div>
+          <div class="project-body">
+            <p class="project-type">ANDROID PROGRAMMING</p>
+            <h3>Cyber Crime Reporting App</h3>
+            <p data-id="Pengembangan aplikasi Android untuk pelaporan insiden kejahatan siber menggunakan Kotlin."
+               data-en="Development of an Android application for reporting cybercrime incidents using Kotlin.">
+              Pengembangan aplikasi Android untuk pelaporan insiden kejahatan siber menggunakan Kotlin.
+            </p>
+            <div class="tag-list"><span>Kotlin</span><span>Android</span><span>Mobile App</span></div>
+            <button class="detail-button" data-project="cyberapp">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="data">
+          <div class="project-top"><span>10 / DATA ANALYSIS</span><span>Academic</span></div>
+          <div class="project-art art-webqual"><span>10</span><i>WEBQUAL<br>EVALUATION</i></div>
+          <div class="project-body">
+            <p class="project-type">PROBABILITY & STATISTICS</p>
+            <h3>ChatGPT Website Evaluation</h3>
+            <p data-id="Evaluasi kualitas website ChatGPT menggunakan metode WebQual sebagai proyek kelompok."
+               data-en="Evaluation of ChatGPT website quality using the WebQual method as a group project.">
+              Evaluasi kualitas website ChatGPT menggunakan metode WebQual sebagai proyek kelompok.
+            </p>
+            <div class="tag-list"><span>WebQual</span><span>Statistics</span><span>Research</span></div>
+            <button class="detail-button" data-project="webqual">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="other">
+          <div class="project-top"><span>11 / HARDWARE</span><span>Academic</span></div>
+          <div class="project-art art-fan"><span>11</span><i>SMART<br>FAN</i></div>
+          <div class="project-body">
+            <p class="project-type">OBJECT- ORIENTED PROGRAMMING</p>
+            <h3>Smart Fan</h3>
+            <p data-id="Proyek kelompok berupa prototipe kipas pintar sebagai penerapan konsep pemrograman berorientasi objek."
+               data-en="A group project developing a smart fan prototype as an application of object-oriented programming concepts.">
+              Proyek kelompok berupa prototipe kipas pintar sebagai penerapan konsep pemrograman berorientasi objek.
+            </p>
+            <div class="tag-list"><span>OOP</span><span>Prototype</span></div>
+            <button class="detail-button" data-project="fan">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="other">
+          <div class="project-top"><span>12 / PROGRAMMING</span><span>Academic</span></div>
+          <div class="project-art art-matrix"><span>12</span><i>MATRIX<br>CALCULATOR</i></div>
+          <div class="project-body">
+            <p class="project-type">ALGEBRA & GEOMETRY</p>
+            <h3>C++ Matrix Calculator</h3>
+            <p data-id="Program kalkulator matriks menggunakan C++ sebagai penerapan konsep aljabar dan pemrograman."
+               data-en="A C++ matrix calculator applying algebraic and programming concepts.">
+              Program kalkulator matriks menggunakan C++ sebagai penerapan konsep aljabar dan pemrograman.
+            </p>
+            <div class="tag-list"><span>C++</span><span>Programming</span></div>
+            <button class="detail-button" data-project="matrix">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="other">
+          <div class="project-top"><span>13 / PROGRAMMING</span><span>Academic</span></div>
+          <div class="project-art art-calculator"><span>13</span><i>AREA<br>CALCULATOR</i></div>
+          <div class="project-body">
+            <p class="project-type">PROGRAMMING FUNDAMENTALS</p>
+            <h3>C++ Area Calculator</h3>
+            <p data-id="Program sederhana untuk menghitung luas bidang menggunakan bahasa pemrograman C++."
+               data-en="A simple program for calculating geometric areas using C++.">
+              Program sederhana untuk menghitung luas bidang menggunakan bahasa pemrograman C++.
+            </p>
+            <div class="tag-list"><span>C++</span><span>Fundamentals</span></div>
+            <button class="detail-button" data-project="calculator">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="other">
+          <div class="project-top"><span>14 / BUSINESS</span><span>Academic</span></div>
+          <div class="project-art art-business"><span>14</span><i>BUSINESS<br>MODEL</i></div>
+          <div class="project-body">
+            <p class="project-type">ENTREPRENEURSHIP</p>
+            <h3>Business Idea & BMC</h3>
+            <p data-id="Analisis ide bisnis menggunakan SWOT dan Business Model Canvas dalam proyek kewirausahaan."
+               data-en="Business idea analysis using SWOT and Business Model Canvas for an entrepreneurship project.">
+              Analisis ide bisnis menggunakan SWOT dan Business Model Canvas dalam proyek kewirausahaan.
+            </p>
+            <div class="tag-list"><span>SWOT</span><span>BMC</span><span>Business</span></div>
+            <button class="detail-button" data-project="business">Lihat Detail ↗</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">03 / EXPERIENCE</p>
+        <h2 data-id="Pengalaman & perjalanan." data-en="Experience & journey.">Pengalaman & perjalanan.</h2>
+        <p class="section-intro"
+           data-id="Pengalaman profesional dan organisasi yang membentuk cara saya belajar, berkomunikasi, dan berkontribusi."
+           data-en="Professional and organizational experiences that have shaped how I learn, communicate, and contribute.">
+          Pengalaman profesional dan organisasi yang membentuk cara saya belajar, berkomunikasi, dan berkontribusi.
+        </p>
+      </div>
+
+      <div class="experience-columns">
+        <div class="experience-group">
+          <p class="group-label">01 - PROFESSIONAL EXPERIENCE</p>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta">
+              <span>Professional Experience</span><span>Indonesia</span>
+            </div>
+            <h3>Dinas Pendidikan dan Kebudayaan Kabupaten Tasikmalaya</h3>
+            <h4>Bagian Umum</h4>
+            <p data-id="Pengalaman kerja/magang di lingkungan instansi pemerintahan pada bagian umum. Pengalaman ini menjadi ruang untuk mengenal lingkungan kerja profesional dan proses kerja administratif."
+               data-en="Work/internship experience within a government institution, assigned to the General Affairs section. This experience provided exposure to a professional workplace and administrative processes.">
+              Pengalaman kerja/magang di lingkungan instansi pemerintahan pada bagian umum. Pengalaman ini menjadi ruang untuk mengenal lingkungan kerja profesional dan proses kerja administratif.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta">
+              <span>Education & Community</span><span>Indonesia</span>
+            </div>
+            <h3>SMP Plus Qurrota Ayun</h3>
+            <h4>Pembina dan Tenaga Pendidik</h4>
+            <p data-id="Berperan sebagai pembina dan tenaga pendidik. Pengalaman ini menjadi ruang untuk mengembangkan komunikasi, pendampingan, tanggung jawab, dan kemampuan berinteraksi dengan peserta didik."
+               data-en="Served as a mentor and educator. This experience provided opportunities to develop communication, mentoring, responsibility, and student engagement skills.">
+              Berperan sebagai pembina dan tenaga pendidik. Pengalaman ini menjadi ruang untuk mengembangkan komunikasi, pendampingan, tanggung jawab, dan kemampuan berinteraksi dengan peserta didik.
+            </p>
+          </article>
+        </div>
+
+        <div class="experience-group">
+          <p class="group-label">02 - ORGANIZATIONAL EXPERIENCE</p>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta"><span>External Organization</span><span>2021–2024</span></div>
+            <h3>Pimpinan Cabang Ikatan Pelajar Leuwisari</h3>
+            <h4>Ketua Bidang Prakarya dan Kewirausahaan</h4>
+            <p data-id="Pengalaman kepemimpinan dalam organisasi kepemudaan/pelajar pada bidang prakarya dan kewirausahaan."
+               data-en="Leadership experience in a youth and student organization, focusing on crafts and entrepreneurship.">
+              Pengalaman kepemimpinan dalam organisasi kepemudaan/pelajar pada bidang prakarya dan kewirausahaan.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta"><span>External Organization</span><span>2022–2027</span></div>
+            <h3>Kwartir Daerah Kepanduan Hizbul Wathan Kabupaten Tasikmalaya</h3>
+            <h4>Bidang Al-Islam dan Kemuhammadiyahan</h4>
+            <p data-id="Keterlibatan dalam organisasi kepanduan pada bidang Al-Islam dan Kemuhammadiyahan."
+               data-en="Organizational involvement in the scouting movement, within the Islamic Studies and Muhammadiyah Studies division.">
+              Keterlibatan dalam organisasi kepanduan pada bidang Al-Islam dan Kemuhammadiyahan.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta"><span>External Organization</span><span>2025–2027</span></div>
+            <h3>Pimpinan Cabang Nasyiatul Aisyiyah Leuwisari</h3>
+            <h4>Sekretaris 2</h4>
+            <p data-id="Menjalankan peran kesekretariatan dalam organisasi perempuan muda, sebagai ruang untuk mengembangkan keterampilan administrasi, koordinasi, dan komunikasi organisasi."
+               data-en="Serving in an administrative role within a young women's organization, developing organizational administration, coordination, and communication skills.">
+              Menjalankan peran kesekretariatan dalam organisasi perempuan muda, sebagai ruang untuk mengembangkan keterampilan administrasi, koordinasi, dan komunikasi organisasi.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="organization-note">
+        <span class="note-symbol">✳</span>
+        <div>
+          <h3 data-id="Berkontribusi di luar ruang akademik." data-en="Contributing beyond the academic environment.">Berkontribusi di luar ruang akademik.</h3>
+          <p data-id="Selama masa kuliah, saya memilih untuk mengembangkan diri melalui organisasi eksternal dan lingkungan masyarakat. Bagi saya, pembelajaran tidak hanya berlangsung di dalam kampus, tetapi juga melalui pengalaman berorganisasi, mengemban tanggung jawab, berinteraksi dengan berbagai pihak, dan berkontribusi secara langsung. Pengalaman ini melengkapi pembelajaran akademik serta membantu saya membangun perspektif yang lebih luas."
+             data-en="During my university years, I chose to develop myself through external organizations and community involvement. I believe learning happens not only on campus, but also through organizational experiences, responsibilities, interactions with different people, and direct contributions. These experiences complement academic learning and help me develop a broader perspective.">
+            Selama masa kuliah, saya memilih untuk mengembangkan diri melalui organisasi eksternal dan lingkungan masyarakat. Bagi saya, pembelajaran tidak hanya berlangsung di dalam kampus, tetapi juga melalui pengalaman berorganisasi, mengemban tanggung jawab, berinteraksi dengan berbagai pihak, dan berkontribusi secara langsung. Pengalaman ini melengkapi pembelajaran akademik serta membantu saya membangun perspektif yang lebih luas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">04 / EDUCATION</p>
+        <h2 data-id="Latar belakang pendidikan." data-en="Educational background.">Latar belakang pendidikan.</h2>
+      </div>
+
+      <div class="education-card">
+        <div class="education-year">2022 - 2026</div>
+        <div>
+          <p class="project-type">BACHELOR'S DEGREE</p>
+          <h3>Sekolah Tinggi Teknologi Cipasung (STTC)</h3>
+          <p class="education-major">S1 Informatika</p>
+          <div class="education-tags">
+            <span>IPK 3.73</span>
+            <span>8 Semester</span>
+            <span>Final Thesis</span>
+          </div>
+        </div>
+        <div class="education-score">3.73<small>GPA</small></div>
+      </div>
+    </section>
+   
+    <section class="training-section" id="training">
+      <div class="container">
+        <div class="training-heading">
+          <span class="section-eyebrow"
+                data-id="PENGEMBANGAN DIRI"
+                data-en="PROFESSIONAL DEVELOPMENT">
+            05 / PENGEMBANGAN DIRI
+          </span>
+
+          <h2 data-id="Pelatihan & Sertifikasi"
+              data-en="Training & Certifications">
+            Pelatihan & Sertifikasi
+          </h2>
+          <p data-id="Berbagai pelatihan yang saya ikuti untuk memperluas pengetahuan dan mengembangkan kompetensi di bidang teknologi informasi, jaringan komputer, dan keamanan siber."
+            data-en="Various training programs I have completed to expand my knowledge and develop competencies in information technology, computer networking, and cybersecurity.">
+            Berbagai pelatihan yang saya ikuti untuk memperluas pengetahuan
+            dan mengembangkan kompetensi di bidang teknologi informasi,
+            jaringan komputer, dan keamanan siber.
+          </p>
+        </div>
+
+        <div class="training-grid">
+          <article class="training-card">
+            <div class="training-top">
+              <span class="training-number">01</span>
+              <span class="training-category">CYBERSECURITY</span>
+            </div>
+            <h3 data-id="Cybersecurity: Security Foundation"
+                data-en="Cybersecurity: Security Foundation">
+              Cybersecurity: Security Foundation
+            </h3>
+
+            <p class="training-organizer">Elitery Academy</p>
+
+            <span class="training-date"
+                  data-id="Juli - September 2026"
+                  data-en="July - September 2026">
+              Juli - September 2026
+            </span>
+            <p class="training-description"
+              data-id="Mempelajari dasar jaringan dan komunikasi data, keamanan informasi, digital footprint, personal data awareness, prinsip CIA Triad, identity and access management, password management, autentikasi multifaktor, serta praktik keamanan digital."
+              data-en="Covered network and data communication fundamentals, information security, digital footprints, personal data awareness, the CIA Triad, identity and access management, password management, multi-factor authentication, and digital security practices.">
+              Mempelajari dasar jaringan dan komunikasi data, keamanan informasi,
+              digital footprint, personal data awareness, prinsip CIA Triad,
+              identity and access management, password management, autentikasi
+              multifaktor, serta praktik keamanan digital.
+            </p>
+            <a href="https://drive.google.com/file/d/19byAEVOg536E-pGsvi-o6Vp02RUnaGiv/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="training-link"
+              data-id="Lihat Sertifikat"
+              data-en="View Certificate">
+              Lihat Sertifikat ↗
+            </a>
+          </article>
+
+          <article class="training-card">
+            <div class="training-top">
+              <span class="training-number">02</span>
+              <span class="training-category">CYBERSECURITY</span>
+            </div>
+            <h3 data-id="Kelas Siber IKM: Bisnis Aman Terlindungi!"
+                data-en="IKM Cyber Class: Secure and Protected Business!">
+              Kelas Siber IKM: Bisnis Aman Terlindungi!
+            </h3>
+
+            <p class="training-organizer">Jabar Istimewa Digital Academy</p>
+
+            <span class="training-date"
+                  data-id="Januari - Februari 2026"
+                  data-en="January - February 2026">
+              Januari - Februari 2026
+            </span>
+            <p class="training-description"
+              data-id="Mempelajari cyber hygiene, identifikasi risiko keamanan siber, perlindungan aset digital, password management, pencegahan phishing dan malware, backup dan recovery, perlindungan email, keamanan website dan aplikasi, serta incident response."
+              data-en="Covered cyber hygiene, cybersecurity risk identification, digital asset protection, password management, phishing and malware prevention, backup and recovery, email protection, website and application security, and incident response.">
+              Mempelajari cyber hygiene, identifikasi risiko keamanan siber,
+              perlindungan aset digital, password management, pencegahan phishing
+              dan malware, backup dan recovery, perlindungan email, keamanan
+              website dan aplikasi, serta incident response.
+            </p>
+            <a href="https://drive.google.com/file/d/1B4ol47nrEUO59wVq1PZ2DqpILLSmAozE/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="training-link"
+              data-id="Lihat Sertifikat"
+              data-en="View Certificate">
+              Lihat Sertifikat ↗
+            </a>
+          </article>
+
+          <article class="training-card">
+            <div class="training-top">
+              <span class="training-number">03</span>
+              <span class="training-category">NETWORK SECURITY</span>
+            </div>
+            <h3 data-id="Computer Network dan Cybersecurity Phase 2"
+                data-en="Computer Network and Cybersecurity Phase 2">
+              Computer Network dan Cybersecurity Phase 2
+            </h3>
+
+            <p class="training-organizer">Jabar Istimewa Digital Academy</p>
+
+            <span class="training-date"
+                  data-id="Oktober - November 2025"
+                  data-en="October - November 2025">
+              Oktober - November 2025
+            </span>
+            <p class="training-description"
+              data-id="Mempelajari dasar keamanan jaringan, keamanan informasi, keamanan aplikasi, keamanan fisik, dasar kriptografi, kontrol akses, penggunaan kriptografi, dan pengelolaan risiko keamanan informasi."
+              data-en="Covered network security fundamentals, information security, application security, physical security, cryptography fundamentals, access control, cryptographic practices, and information security risk management.">
+              Mempelajari dasar keamanan jaringan, keamanan informasi,
+              keamanan aplikasi, keamanan fisik, dasar kriptografi,
+              kontrol akses, penggunaan kriptografi, dan pengelolaan
+              risiko keamanan informasi.
+            </p>
+            <a href="https://drive.google.com/file/d/1EHXvrJKq-auzQ42CLf-G3zHttgj07xuu/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="training-link"
+              data-id="Lihat Sertifikat"
+              data-en="View Certificate">
+              Lihat Sertifikat ↗
+            </a>
+          </article>
+
+          <article class="training-card">
+            <div class="training-top">
+              <span class="training-number">04</span>
+              <span class="training-category">NETWORK SECURITY</span>
+            </div>
+            <h3 data-id="Computer Network dan Cybersecurity Phase 1"
+                data-en="Computer Network and Cybersecurity Phase 1">
+              Computer Network dan Cybersecurity Phase 1
+            </h3>
+
+            <p class="training-organizer">Jabar Istimewa Digital Academy</p>
+
+            <span class="training-date"
+                  data-id="September - Oktober 2025"
+                  data-en="September - October 2025">
+              September - Oktober 2025
+            </span>
+            <p class="training-description"
+              data-id="Mempelajari jaringan komputer dasar, ancaman dunia digital, hukum dan aturan dalam dunia digital, serta konsep dasar ethical hacking."
+              data-en="Covered computer networking fundamentals, digital threats, laws and regulations in the digital environment, and the basic concepts of ethical hacking.">
+              Mempelajari jaringan komputer dasar, ancaman dunia digital,
+              hukum dan aturan dalam dunia digital, serta konsep dasar
+              ethical hacking.
+            </p>
+            <a href="https://drive.google.com/file/d/1zhqHcY2MAa0XO0s0G5jU7bN7Kml1aX2X/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="training-link"
+              data-id="Lihat Sertifikat"
+              data-en="View Certificate">
+              Lihat Sertifikat ↗
+            </a>
+          </article>
+          
+          <article class="training-card certification-card">
+            <div class="training-top">
+              <span class="training-number">05</span>
+              <span class="training-category">CERTIFICATION</span>
+            </div>
+            <h3 data-id="Pengelolaan Keamanan Informasi"
+                data-en="Information Security Management">
+              Pengelolaan Keamanan Informasi
+            </h3>
+
+            <p class="training-organizer">LPK Inixindo</p>
+
+            <span class="training-date"
+                  data-id="Desember 2025 – Desember 2027"
+                  data-en="December 2025 – December 2027">
+              Desember 2025 – Desember 2027
+            </span>
+            <p class="training-description"
+              data-id="Sertifikasi di bidang pengelolaan keamanan informasi yang mendukung pemahaman mengenai penerapan dan pengelolaan aspek keamanan informasi."
+              data-en="A certification in information security management, supporting knowledge of information security practices and management.">
+              Sertifikasi di bidang pengelolaan keamanan informasi yang
+              mendukung pemahaman mengenai penerapan dan pengelolaan
+              aspek keamanan informasi.
+            </p>
+            <a href="https://drive.google.com/file/d/1s9ZhXikoeRFcT4mQM8ety11xVHrYIrOx/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="training-link"
+              data-id="Lihat Dokumen Sertifikasi"
+              data-en="View Certification Document">
+              Lihat Dokumen Sertifikasi ↗
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">06 / CAPABILITIES</p>
+        <h2 data-id="Hal yang saya kuasai." data-en="What I work with.">Hal yang saya kuasai.</h2>
+        <p class="section-intro"
+           data-id="Kumpulan kemampuan yang saya kembangkan melalui pembelajaran, proyek akademik, dan pengalaman."
+           data-en="A collection of skills developed through learning, academic projects, and practical experiences.">
+          Kumpulan kemampuan yang saya kembangkan melalui pembelajaran, proyek akademik, dan pengalaman.
+        </p>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-panel">
+          <div class="skill-panel-heading">
+            <span class="skill-icon">⌘</span>
+            <div><p>01</p><h3>Hard Skills</h3></div>
+          </div>
+          <div class="skill-category">
+            <h4>Programming & Development</h4>
+            <div class="skill-chips">
+              <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>PHP</span><span>C++</span><span>Kotlin</span><span>Laravel</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Data & Database</h4>
+            <div class="skill-chips">
+              <span>MySQL</span><span>SQL</span><span>Streamlit</span><span>Excel</span>
+              <span>Data Analysis</span><span>NLP</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Design & Security</h4>
+            <div class="skill-chips">
+              <span>Figma</span><span>UI/UX</span><span>Cybersecurity</span>
+              <span>Git</span><span>GitHub</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Productivity</h4>
+            <div class="skill-chips">
+              <span>Microsoft Word</span><span>PowerPoint</span><span>Excel</span>
+              <span>Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-panel soft-panel">
+          <div class="skill-panel-heading">
+            <span class="skill-icon">✳</span>
+            <div><p>02</p><h3>Soft Skills</h3></div>
+          </div>
+          <div class="skill-category">
+            <h4 data-id="Personal & Professional" data-en="Personal & Professional">Personal & Professional</h4>
+            <div class="skill-chips">
+              <span data-id="Kemauan belajar" data-en="Willingness to Learn">Kemauan belajar</span>
+              <span data-id="Adaptabilitas" data-en="Adaptability">Adaptabilitas</span>
+              <span data-id="Manajemen waktu" data-en="Time Management">Manajemen waktu</span>
+              <span data-id="Tanggung jawab" data-en="Responsibility">Tanggung jawab</span>
+              <span data-id="Pemecahan masalah" data-en="Problem Solving">Pemecahan masalah</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4 data-id="Communication & Collaboration" data-en="Communication & Collaboration">Communication & Collaboration</h4>
+            <div class="skill-chips">
+              <span data-id="Komunikasi" data-en="Communication">Komunikasi</span>
+              <span data-id="Kerja sama tim" data-en="Teamwork">Kerja sama tim</span>
+              <span data-id="Kepemimpinan" data-en="Leadership">Kepemimpinan</span>
+              <span data-id="Koordinasi" data-en="Coordination">Koordinasi</span>
+              <span data-id="Pendampingan" data-en="Mentoring">Pendampingan</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4 data-id="Work Approach" data-en="Work Approach">Work Approach</h4>
+            <div class="skill-chips">
+              <span data-id="Berpikir kritis" data-en="Critical Thinking">Berpikir kritis</span>
+              <span data-id="Teliti" data-en="Attention to Detail">Teliti</span>
+              <span data-id="Inisiatif" data-en="Initiative">Inisiatif</span>
+              <span data-id="Organisasi" data-en="Organization">Organisasi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="skills-disclaimer"
+         data-id="Catatan: daftar hard skills mencerminkan teknologi dan tools yang pernah dipelajari atau digunakan dalam proyek akademik. Tingkat penguasaan dapat berbeda pada setiap bidang dan terus dikembangkan."
+         data-en="Note: hard skills reflect technologies and tools I have learned or used in academic projects. Proficiency varies across areas and continues to develop.">
+        Catatan: daftar hard skills mencerminkan teknologi dan tools yang pernah dipelajari atau digunakan dalam proyek akademik. Tingkat penguasaan dapat berbeda pada setiap bidang dan terus dikembangkan.
+      </p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">07 / CONTACT</p>
+      <h2 data-id="Mari terhubung." data-en="Let's connect.">Mari Bersilaturahmi.</h2>
+      <p data-id="Terbuka untuk kesempatan belajar, kolaborasi, dan pengalaman profesional baru."
+         data-en="Open to learning opportunities, collaborations, and new professional experiences.">
+        Terbuka untuk belajar, berkolaborasi, dan pengalaman baru.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:wahdahfauziah1@gmail.com">Email ↗</a>
+        <a href="https://www.linkedin.com/in/wahdah-siti-nurfauziah-876961263" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/wahdahhooo" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home">W<span>.</span></a>
+    <p>© 2026 Wahdah Siti Nurfauziyah. <span data-id="Dibuat dengan rasa nano." data-en="Made with curiosity.">Dibuat dengan rasa ingin tahu.</span></p>
+    <a href="#home" class="back-top">↑</a>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <p class="eyebrow" id="modalCategory">PROJECT DETAILS</p>
+      <h2 id="modalTitle">Project Title</h2>
+      <p id="modalDescription"></p>
+      <div class="modal-info">
+        <div><span>Role</span><strong id="modalRole">—</strong></div>
+        <div><span>Tools</span><strong id="modalTools">—</strong></div>
+        <div><span>Documentation</span><strong id="modalDocs">—</strong></div>
+      </div>
+      <div class="modal-links" id="modalLinks"></div>
+      <p class="modal-note" id="modalNote"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
